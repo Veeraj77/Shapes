@@ -16,3 +16,4 @@ class Main1 {
             System.out.print("Enter your choice: ");
             choice = scan.nextInt();
             
+            switch(choice) {
