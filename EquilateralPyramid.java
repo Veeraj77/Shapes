@@ -9,3 +9,6 @@ class EquilateralPyramid extends Shape implements Volume {
         double sideArea = 4 * (0.5 * dim_one * dim_two);
         return baseArea + sideArea;
     }
+    public double calculateVolume() {
+        return (1.0 / 3.0) * dim_one * dim_one * dim_two;
+    }
