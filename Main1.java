@@ -71,3 +71,6 @@ class Main1 {
                     System.out.println("Area: " + pyr.calculateArea());
                     System.out.println("Volume: " + pyr.calculateVolume());
                     break;
+                case 7:
+                    System.out.println("Exiting the Program...");
+                    break;
