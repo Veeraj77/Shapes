@@ -77,3 +77,7 @@ class Main1 {
                 default:
                     System.out.println("Invalid Choice!");
             }
+        } while(choice != 7);
+        scan.close();
+    }
+}
