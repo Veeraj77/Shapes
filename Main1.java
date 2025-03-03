@@ -74,3 +74,6 @@ class Main1 {
                 case 7:
                     System.out.println("Exiting the Program...");
                     break;
+                default:
+                    System.out.println("Invalid Choice!");
+            }
