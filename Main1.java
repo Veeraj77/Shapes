@@ -35,3 +35,11 @@ class Main1 {
                     System.out.println("Area: " + cir.calculateArea());
                     System.out.println("Perimeter: " + cir.calculatePerimeter());
                     break;
+                case 3:
+                    // Square input and calculations
+                    System.out.print("Enter side: ");
+                    double side = scan.nextDouble();
+                    Square sq = new Square(side);
+                    System.out.println("Area: " + sq.calculateArea());
+                    System.out.println("Perimeter: " + sq.calculatePerimeter());
+                    break;
