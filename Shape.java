@@ -9,3 +9,4 @@ abstract class Shape {
         this.dim_three = dim_three;
         this.sides = sides;
     }
+    public abstract double calculateArea();
