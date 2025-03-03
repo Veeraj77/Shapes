@@ -51,3 +51,13 @@ class Main1 {
                     System.out.println("Area: " + sph.calculateArea());
                     System.out.println("Volume: " + sph.calculateVolume());
                     break;
+                case 5:
+                    // Cylinder input and calculations
+                    System.out.print("Enter radius: ");
+                    double cylRadius = scan.nextDouble();
+                    System.out.print("Enter height: ");
+                    double height = scan.nextDouble();
+                    Cylinder cyl = new Cylinder(cylRadius, height);
+                    System.out.println("Area: " + cyl.calculateArea());
+                    System.out.println("Volume: " + cyl.calculateVolume());
+                    break;
