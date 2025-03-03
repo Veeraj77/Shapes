@@ -43,3 +43,11 @@ class Main1 {
                     System.out.println("Area: " + sq.calculateArea());
                     System.out.println("Perimeter: " + sq.calculatePerimeter());
                     break;
+                case 4:
+                    // Sphere input and calculations
+                    System.out.print("Enter radius: ");
+                    double sphereRadius = scan.nextDouble();
+                    Sphere sph = new Sphere(sphereRadius);
+                    System.out.println("Area: " + sph.calculateArea());
+                    System.out.println("Volume: " + sph.calculateVolume());
+                    break;
