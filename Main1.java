@@ -17,3 +17,13 @@ class Main1 {
             choice = scan.nextInt();
             
             switch(choice) {
+                case 1:
+                    // Rectangle input and calculations
+                    System.out.print("Enter length: ");
+                    double length = scan.nextDouble();
+                    System.out.print("Enter width: ");
+                    double width = scan.nextDouble();
+                    Rectangle rec = new Rectangle(length, width);
+                    System.out.println("Area: " + rec.calculateArea());
+                    System.out.println("Perimeter: " + rec.calculatePerimeter());
+                    break;
