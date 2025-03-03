@@ -27,3 +27,11 @@ class Main1 {
                     System.out.println("Area: " + rec.calculateArea());
                     System.out.println("Perimeter: " + rec.calculatePerimeter());
                     break;
+                case 2:
+                    // Circle input and calculations
+                    System.out.print("Enter radius: ");
+                    double radius = scan.nextDouble();
+                    Circle cir = new Circle(radius);
+                    System.out.println("Area: " + cir.calculateArea());
+                    System.out.println("Perimeter: " + cir.calculatePerimeter());
+                    break;
