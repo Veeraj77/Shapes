@@ -12,3 +12,4 @@ class Circle extends Shape {
     public double calculatePerimeter() {
         return 2 * Math.PI * dim_one;
     }
+}
