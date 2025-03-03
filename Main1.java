@@ -61,3 +61,13 @@ class Main1 {
                     System.out.println("Area: " + cyl.calculateArea());
                     System.out.println("Volume: " + cyl.calculateVolume());
                     break;
+                case 6:
+                    // Equilateral Pyramid input and calculations
+                    System.out.print("Enter base side: ");
+                    double base = scan.nextDouble();
+                    System.out.print("Enter height: ");
+                    double pyrHeight = scan.nextDouble();
+                    EquilateralPyramid pyr = new EquilateralPyramid(base, pyrHeight);
+                    System.out.println("Area: " + pyr.calculateArea());
+                    System.out.println("Volume: " + pyr.calculateVolume());
+                    break;
