@@ -56,10 +56,6 @@ getSurfaceArea(): Calculates the surface area of the pyramid.
 
 Constructor Methods: Used to initialize objects with default or user-defined values.
 
-Getter Methods: Retrieve the values of private attributes.
-
-Setter Methods: Set or update the values of private attributes.
-
 Calculation Methods: Perform calculations like area, perimeter, volume, and surface area.
 
 Display Methods: Print the properties and calculated results of the shapes.
