@@ -1,10 +1,10 @@
-Shapes Project
+# Shapes Project
 
-Description
+## Description
 
 This project demonstrates the implementation of various geometric shapes using object-oriented programming concepts in Java. It includes classes for different shapes such as Circle, Cylinder, Equilateral Pyramid, Rectangle, Sphere, and Square.
 
-Features
+## Features
 
 Object-Oriented Programming (OOP) principles
 
@@ -14,45 +14,45 @@ Polymorphism
 
 Shape-specific methods
 
-Functions Overview
+## Functions Overview
 
-Circle Class
+### Circle Class
 
 getArea(): Calculates the area of the circle.
 
 getPerimeter(): Calculates the perimeter of the circle.
 
-Cylinder Class
+### Cylinder Class
 
 getVolume(): Calculates the volume of the cylinder.
 
 getSurfaceArea(): Calculates the surface area of the cylinder.
 
-Rectangle Class
+### Rectangle Class
 
 getArea(): Calculates the area of the rectangle.
 
 getPerimeter(): Calculates the perimeter of the rectangle.
 
-Square Class
+### Square Class
 
 getArea(): Calculates the area of the square.
 
 getPerimeter(): Calculates the perimeter of the square.
 
-Sphere Class
+### Sphere Class
 
 getVolume(): Calculates the volume of the sphere.
 
 getSurfaceArea(): Calculates the surface area of the sphere.
 
-Equilateral Pyramid Class
+### Equilateral Pyramid Class
 
 getVolume(): Calculates the volume of the pyramid.
 
 getSurfaceArea(): Calculates the surface area of the pyramid.
 
-Methods Used
+## Methods Used
 
 Constructor Methods: Used to initialize objects with default or user-defined values.
 
